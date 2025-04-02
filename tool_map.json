@@ -1,0 +1,16 @@
+{
+    "node@18": {
+      "linux": "curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash - && sudo apt install -y nodejs",
+      "macos": "brew install node@18",
+      "windows": "winget install OpenJS.NodeJS.LTS"
+    },
+    "node@22": {
+      "linux": "curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash - && sudo apt install -y nodejs",
+      "macos": "brew install node@22",
+      "windows": "winget install OpenJS.NodeJS"
+    },
+    "vscode:esbenp.prettier-vscode": {
+      "all": "code --install-extension esbenp.prettier-vscode"
+    }
+  }
+  
